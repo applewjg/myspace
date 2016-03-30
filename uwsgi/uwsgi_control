@@ -1,0 +1,52 @@
+#!/bin/bash
+
+MODULE_DIR="`dirname $0`"
+cd "$MODULE_DIR"
+if [ $? -ne 0 ]
+then
+    echo "cd module dir failed! check the path!"
+    exit 1
+fi
+
+UWSGI_BIN=$MODULE_DIR/bin/uwsgi
+LOG_DIR=$MODULE_DIR/logs/
+CONF_DIR=$MODULE_DIR/conf/
+STATUS_DIR=$MODULE_DIR/status/
+
+if [ ! -d ${LOG_DIR} ]
+then
+    mkdir ${LOG_DIR}
+fi
+
+chmod a+x ${UWSGI_BIN}
+
+case "$1" in
+    start)
+        for file in `ls ${CONF_DIR}/*`
+        do
+            ${UWSGI_BIN} --ini ${file}
+        done
+        exit $?
+        ;;
+    stop)
+        killall -INT uwsgi
+        exit $?
+        ;;
+    restart)
+        $0 stop
+        sleep 5
+        $0 start
+        exit $?
+        ;;
+    reload)
+        for pidfile in `ls ${STATUS_DIR}/*.pid`
+        do
+            ${UWSGI_BIN} --reload ${pidfile}
+        done
+        exit $?
+        ;;
+    logrotate)
+        touch ${STATUS_DIR}/touch-this-file-will-reopen-log-file
+        exit $?
+        ;;
+esac

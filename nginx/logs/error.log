@@ -1,0 +1,101 @@
+2016/03/30 03:21:32 [error] 10961#0: *1 "/home/iqq/myspace/nginx/html/index.html" is forbidden (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET / HTTP/1.1", host: "iqq.cloudapp.net"
+2016/03/30 03:21:33 [error] 10961#0: *1 open() "/home/iqq/myspace/nginx/html/favicon.ico" failed (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "iqq.cloudapp.net", referrer: "http://iqq.cloudapp.net/"
+2016/03/30 03:21:37 [error] 10961#0: *1 "/home/iqq/myspace/nginx/html/index.html" is forbidden (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET / HTTP/1.1", host: "iqq.cloudapp.net"
+2016/03/30 03:21:37 [error] 10961#0: *1 open() "/home/iqq/myspace/nginx/html/favicon.ico" failed (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "iqq.cloudapp.net", referrer: "http://iqq.cloudapp.net/"
+2016/03/30 03:22:31 [notice] 11018#0: signal process started
+2016/03/30 03:28:42 [error] 11244#0: *1 "/home/iqq/myspace/nginx/html/index.html" is forbidden (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET / HTTP/1.1", host: "iqq.cloudapp.net"
+2016/03/30 03:28:42 [error] 11244#0: *1 open() "/home/iqq/myspace/nginx/html/favicon.ico" failed (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "iqq.cloudapp.net", referrer: "http://iqq.cloudapp.net/"
+2016/03/30 03:28:44 [error] 11244#0: *1 "/home/iqq/myspace/nginx/html/index.html" is forbidden (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET / HTTP/1.1", host: "iqq.cloudapp.net"
+2016/03/30 03:28:44 [error] 11244#0: *1 open() "/home/iqq/myspace/nginx/html/favicon.ico" failed (13: Permission denied), client: 61.135.169.78, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "iqq.cloudapp.net", referrer: "http://iqq.cloudapp.net/"
+2016/03/30 03:30:14 [notice] 11317#0: signal process started
+2016/03/30 03:30:25 [error] 11321#0: *1 open() "/home/iqq/myspace/nginx/html/favicon.ico" failed (2: No such file or directory), client: 61.135.169.78, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "iqq.cloudapp.net", referrer: "http://iqq.cloudapp.net/"
+2016/03/30 03:42:30 [emerg] 11553#0: unknown log format "main" in /home/iqq/myspace/nginx/conf/nginx.conf:25
+2016/03/30 03:42:38 [emerg] 11561#0: unknown log format "main" in /home/iqq/myspace/nginx/conf/nginx.conf:25
+2016/03/30 03:43:40 [notice] 11618#0: signal process started
+2016/03/30 03:43:43 [notice] 11621#0: using the "epoll" event method
+2016/03/30 03:43:43 [warn] 11621#0: 2048 worker_connections exceed open file resource limit: 1024
+2016/03/30 03:43:43 [notice] 11621#0: nginx/1.8.1
+2016/03/30 03:43:43 [notice] 11621#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+2016/03/30 03:43:43 [notice] 11621#0: OS: Linux 3.10.0-229.7.2.el7.x86_64
+2016/03/30 03:43:43 [notice] 11621#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/03/30 03:43:43 [notice] 11622#0: start worker processes
+2016/03/30 03:43:43 [notice] 11622#0: start worker process 11623
+2016/03/30 03:43:43 [notice] 11622#0: start worker process 11624
+2016/03/30 03:44:12 [emerg] 11647#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/03/30 03:44:12 [notice] 11647#0: try again to bind() after 500ms
+2016/03/30 03:44:12 [emerg] 11647#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/03/30 03:44:12 [notice] 11647#0: try again to bind() after 500ms
+2016/03/30 03:44:12 [emerg] 11647#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/03/30 03:44:12 [notice] 11647#0: try again to bind() after 500ms
+2016/03/30 03:44:12 [emerg] 11647#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/03/30 03:44:12 [notice] 11647#0: try again to bind() after 500ms
+2016/03/30 03:44:12 [emerg] 11647#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/03/30 03:44:12 [notice] 11647#0: try again to bind() after 500ms
+2016/03/30 03:44:12 [emerg] 11647#0: still could not bind()
+2016/03/30 03:44:19 [notice] 11654#0: signal process started
+2016/03/30 03:44:19 [notice] 11622#0: signal 15 (SIGTERM) received, exiting
+2016/03/30 03:44:19 [notice] 11623#0: exiting
+2016/03/30 03:44:19 [notice] 11623#0: exit
+2016/03/30 03:44:19 [notice] 11624#0: exiting
+2016/03/30 03:44:19 [notice] 11624#0: exit
+2016/03/30 03:44:19 [notice] 11622#0: signal 17 (SIGCHLD) received
+2016/03/30 03:44:19 [notice] 11622#0: worker process 11623 exited with code 0
+2016/03/30 03:44:19 [notice] 11622#0: worker process 11624 exited with code 0
+2016/03/30 03:44:19 [notice] 11622#0: exit
+2016/03/30 03:44:21 [notice] 11656#0: using the "epoll" event method
+2016/03/30 03:44:21 [notice] 11656#0: nginx/1.8.1
+2016/03/30 03:44:21 [notice] 11656#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+2016/03/30 03:44:21 [notice] 11656#0: OS: Linux 3.10.0-229.7.2.el7.x86_64
+2016/03/30 03:44:21 [notice] 11656#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/03/30 03:44:21 [notice] 11657#0: start worker processes
+2016/03/30 03:44:21 [notice] 11657#0: start worker process 11658
+2016/03/30 03:44:21 [notice] 11657#0: start worker process 11659
+2016/03/30 03:44:34 [notice] 11670#0: signal process started
+2016/03/30 03:44:34 [notice] 11657#0: signal 15 (SIGTERM) received, exiting
+2016/03/30 03:44:34 [notice] 11659#0: exiting
+2016/03/30 03:44:34 [notice] 11658#0: exiting
+2016/03/30 03:44:34 [notice] 11659#0: exit
+2016/03/30 03:44:34 [notice] 11658#0: exit
+2016/03/30 03:44:34 [notice] 11657#0: signal 17 (SIGCHLD) received
+2016/03/30 03:44:34 [notice] 11657#0: worker process 11659 exited with code 0
+2016/03/30 03:44:34 [notice] 11657#0: signal 17 (SIGCHLD) received
+2016/03/30 03:44:34 [notice] 11657#0: worker process 11658 exited with code 0
+2016/03/30 03:44:34 [notice] 11657#0: exit
+2016/03/30 04:00:33 [notice] 12514#0: using the "epoll" event method
+2016/03/30 04:00:33 [notice] 12514#0: nginx/1.8.1
+2016/03/30 04:00:33 [notice] 12514#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+2016/03/30 04:00:33 [notice] 12514#0: OS: Linux 3.10.0-229.7.2.el7.x86_64
+2016/03/30 04:00:33 [notice] 12514#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/03/30 04:00:33 [notice] 12515#0: start worker processes
+2016/03/30 04:00:33 [notice] 12515#0: start worker process 12516
+2016/03/30 04:00:33 [notice] 12515#0: start worker process 12517
+2016/03/30 04:02:21 [notice] 12624#0: signal process started
+2016/03/30 04:02:21 [notice] 12515#0: signal 15 (SIGTERM) received, exiting
+2016/03/30 04:02:21 [notice] 12516#0: exiting
+2016/03/30 04:02:21 [notice] 12516#0: exit
+2016/03/30 04:02:21 [notice] 12517#0: exiting
+2016/03/30 04:02:21 [notice] 12517#0: exit
+2016/03/30 04:02:21 [notice] 12515#0: signal 17 (SIGCHLD) received
+2016/03/30 04:02:21 [notice] 12515#0: worker process 12516 exited with code 0
+2016/03/30 04:02:21 [notice] 12515#0: signal 29 (SIGIO) received
+2016/03/30 04:02:21 [notice] 12515#0: signal 17 (SIGCHLD) received
+2016/03/30 04:02:21 [notice] 12515#0: worker process 12517 exited with code 0
+2016/03/30 04:02:21 [notice] 12515#0: exit
+2016/03/30 04:02:25 [notice] 12630#0: using the "epoll" event method
+2016/03/30 04:02:25 [notice] 12630#0: nginx/1.8.1
+2016/03/30 04:02:25 [notice] 12630#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+2016/03/30 04:02:25 [notice] 12630#0: OS: Linux 3.10.0-229.7.2.el7.x86_64
+2016/03/30 04:02:25 [notice] 12630#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/03/30 04:02:25 [notice] 12631#0: start worker processes
+2016/03/30 04:02:25 [notice] 12631#0: start worker process 12632
+2016/03/30 04:02:25 [notice] 12631#0: start worker process 12633
+2016/03/30 05:55:52 [notice] 15824#0: signal process started
+2016/03/30 05:55:52 [notice] 12631#0: signal 15 (SIGTERM) received, exiting
+2016/03/30 05:55:52 [notice] 12632#0: exiting
+2016/03/30 05:55:52 [notice] 12632#0: exit
+2016/03/30 05:55:52 [notice] 12633#0: exiting
+2016/03/30 05:55:52 [notice] 12633#0: exit
+2016/03/30 05:55:52 [notice] 12631#0: signal 17 (SIGCHLD) received
+2016/03/30 05:55:52 [notice] 12631#0: worker process 12632 exited with code 0
+2016/03/30 05:55:52 [notice] 12631#0: worker process 12633 exited with code 0
+2016/03/30 05:55:52 [notice] 12631#0: exit
